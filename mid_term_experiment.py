@@ -27,7 +27,7 @@ def create_mid_term_experiment(rc):
     mm.add_fly_mission_to_area({
         'area_name': '生态监测区（区域1）',
         'mission_name': '植被覆盖提取生态观测任务_可见光',
-        'aerocraft': '猛牛-轻小型固定翼无人机',
+        'aerocraft': '猛牛-轻小型固定翼无人机（绿色）',
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'forward_overlap': 0.5,
@@ -40,7 +40,7 @@ def create_mid_term_experiment(rc):
     mm.add_fly_mission_to_area({
         'area_name': '生态监测区（区域1）',
         'mission_name': '植被覆盖提取生态观测任务_地理所单电数码相机',
-        'aerocraft': '猛牛-轻小型固定翼无人机',
+        'aerocraft': '猛牛-轻小型固定翼无人机（黄色）',
         'cameras': '地理所单电数码相机',
         'ground_resolution_m': 0.1,
         'forward_overlap': 0.5,
@@ -79,7 +79,7 @@ def create_mid_term_experiment(rc):
     mm.add_fly_mission_to_area({
         'area_name': '人、车目标跟踪观测区（区域3）',
         'mission_name': '人、车目标跟踪(红外)',
-        'aerocraft': '猛牛-轻小型固定翼无人机',
+        'aerocraft': '猛牛-轻小型固定翼无人机（深绿）',
         'cameras': '轻型双波段相机(红外)',
         'ground_resolution_m': 0.1,
         'forward_overlap': None,
@@ -92,7 +92,7 @@ def create_mid_term_experiment(rc):
     mm.add_fly_mission_to_area({
         'area_name': '人、车目标跟踪观测区（区域3）',
         'mission_name': '人、车目标跟踪（可见光）',
-        'aerocraft': '猛牛-轻小型固定翼无人机',
+        'aerocraft': '猛牛-轻小型固定翼无人机（橙色）',
         'cameras': '轻型双波段相机(可见光)',
         'ground_resolution_m': 0.1,
         'forward_overlap': None,
