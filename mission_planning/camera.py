@@ -9,8 +9,8 @@ cameras = {
         'R_suggest_m': 800.,
         'f_m': -1.,
         'ground_resolution_m': .1,
-        'right_look_angle_degrees': 70.,
-        'range_beam_width_degrees': 6.,
+        'right_look_angle_degrees': -66.,
+        'range_beam_width_degrees': 13.,
     },
 
     #'广域SAR': {
