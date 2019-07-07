@@ -4,7 +4,7 @@ cameras = {
     'minisar': {
         'type': 'sar',
         'name': 'minisar',
-        'R_min_m': 1000.,
+        'R_min_m': 800,
         'R_max_m': 6000.,
         'R_suggest_m': 800.,
         'f_m': -1.,
