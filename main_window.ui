@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1412</width>
+    <height>782</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1412</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="mainmenu_map">
+    <property name="title">
+     <string>map</string>
+    </property>
+    <addaction name="zoom_to_china"/>
+    <addaction name="separator"/>
+    <addaction name="actionuse_open_street_map"/>
+    <addaction name="actionuse_open_street_map_cycle"/>
+    <addaction name="actionuse_amap_6"/>
+    <addaction name="actionuse_amap_7"/>
+    <addaction name="separator"/>
+    <addaction name="actionuse_epsg4326"/>
+    <addaction name="actionuse_epsg3857"/>
+   </widget>
+   <widget class="QMenu" name="mainmenu_view">
+    <property name="title">
+     <string>view</string>
+    </property>
+    <addaction name="show_quickview"/>
+    <addaction name="show_map"/>
+    <addaction name="show_mission"/>
+    <addaction name="separator"/>
+    <addaction name="use_chinese"/>
+   </widget>
+   <widget class="QMenu" name="mainmenu_help">
+    <property name="title">
+     <string>help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="mainmenu_quickview">
+    <property name="title">
+     <string>quickview</string>
+    </property>
+    <addaction name="show_history_quickviews"/>
+    <addaction name="separator"/>
+    <addaction name="actionshow_1_quickviews"/>
+    <addaction name="actionshow_2_quickviews_h"/>
+    <addaction name="actionshow_2_quickviews_v"/>
+    <addaction name="actionshow_4_quickviews"/>
+   </widget>
+   <widget class="QMenu" name="mainmenu_mission">
+    <property name="title">
+     <string>mission</string>
+    </property>
+    <addaction name="actionmid_term"/>
+    <addaction name="actiongenerate_files"/>
+    <addaction name="actionopen_route_files"/>
+    <addaction name="actioncreate_area"/>
+   </widget>
+   <widget class="QMenu" name="mainmenu_debug">
+    <property name="title">
+     <string>debug</string>
+    </property>
+    <addaction name="debug"/>
+   </widget>
+   <addaction name="mainmenu_mission"/>
+   <addaction name="mainmenu_view"/>
+   <addaction name="mainmenu_map"/>
+   <addaction name="mainmenu_quickview"/>
+   <addaction name="mainmenu_help"/>
+   <addaction name="mainmenu_debug"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="zoom_to_china">
+   <property name="text">
+    <string>zoom to china</string>
+   </property>
+  </action>
+  <action name="show_quickview">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>quickview</string>
+   </property>
+  </action>
+  <action name="show_map">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>map</string>
+   </property>
+  </action>
+  <action name="show_mission">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>mission</string>
+   </property>
+  </action>
+  <action name="use_english">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>english</string>
+   </property>
+  </action>
+  <action name="use_chinese">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>chinese</string>
+   </property>
+  </action>
+  <action name="show_history_quickviews">
+   <property name="text">
+    <string>show_history_quickviews</string>
+   </property>
+  </action>
+  <action name="debug">
+   <property name="text">
+    <string>debug</string>
+   </property>
+  </action>
+  <action name="actioncreate_area">
+   <property name="text">
+    <string>create area</string>
+   </property>
+  </action>
+  <action name="actionshow_1_quickviews">
+   <property name="text">
+    <string>show 1 quickviews</string>
+   </property>
+  </action>
+  <action name="actionshow_2_quickviews_h">
+   <property name="text">
+    <string>show 2 quickviews horizontal</string>
+   </property>
+  </action>
+  <action name="actionshow_2_quickviews_v">
+   <property name="text">
+    <string>show 2 quickviews vertical</string>
+   </property>
+  </action>
+  <action name="actionshow_4_quickviews">
+   <property name="text">
+    <string>show 4 quickviews</string>
+   </property>
+  </action>
+  <action name="actionuse_open_street_map">
+   <property name="text">
+    <string>use open street map</string>
+   </property>
+  </action>
+  <action name="actionuse_amap_6">
+   <property name="text">
+    <string>use amap 6</string>
+   </property>
+  </action>
+  <action name="actionuse_amap_7">
+   <property name="text">
+    <string>use amap 7</string>
+   </property>
+  </action>
+  <action name="actionuse_open_street_map_cycle">
+   <property name="text">
+    <string>use open street map cycle</string>
+   </property>
+  </action>
+  <action name="actionuse_epsg4326">
+   <property name="text">
+    <string>use epsg4326</string>
+   </property>
+  </action>
+  <action name="actionuse_epsg3857">
+   <property name="text">
+    <string>use epsg3857</string>
+   </property>
+  </action>
+  <action name="actionmid_term">
+   <property name="text">
+    <string>建立中期实验任务</string>
+   </property>
+  </action>
+  <action name="actiongenerate_files">
+   <property name="text">
+    <string>生成输出文件</string>
+   </property>
+  </action>
+  <action name="actionopen_route_files">
+   <property name="text">
+    <string>打开路径文件</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
