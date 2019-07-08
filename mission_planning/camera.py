@@ -88,5 +88,12 @@ cameras = {
         'pixel_num_x': 5472,
         'pixel_num_y': 3648,
     },
-
+    '地理所单电数码相机': {
+        'type': 'camera',
+        'name': '地理所单电数码相机',
+        'f_m': 35*0.001,
+        'pixel_size_m': 4.5*0.001*0.001,
+        'pixel_num_x': 7952,
+        'pixel_num_y': 5304,
+    },
 }
