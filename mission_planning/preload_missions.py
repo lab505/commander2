@@ -1,7 +1,7 @@
 # coding=utf8
 
 missions = {
-    '1号_[中期实验]_SAR1T': {
+    '1号机_[中期实验]_SAR1T': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '翱翔号（白色）',
@@ -11,7 +11,7 @@ missions = {
         'forward_overlap': 0.,
         'sideway_overlap': 0.3,
     },
-    '5号_[中期实验]_双5T': {
+    '5号机_[中期实验]_双5T': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '猛牛-轻小型固定翼无人机（橙色）',
@@ -21,7 +21,7 @@ missions = {
         'forward_overlap': 0.,
         'sideway_overlap': 0.3,
     },
-    '3号_[中期实验]_RGB3': {
+    '3号机_[中期实验]_RGB3': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '猛牛-轻小型固定翼无人机（黄色300）',
@@ -31,7 +31,7 @@ missions = {
         'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
-    '4号_[中期实验]_RGB4': {
+    '4号机_[中期实验]_RGB4R': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '猛牛-轻小型固定翼无人机（浅绿）',
@@ -41,7 +41,7 @@ missions = {
         'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
-    '2号_[中期实验]_RGB2': {
+    '2号机_[中期实验]_RGB2': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '猛牛-轻小型固定翼无人机（深绿）',
@@ -51,7 +51,7 @@ missions = {
         'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
-    '6号_[中期实验]_RGB6': {
+    '6号机_[中期实验]_RGB6': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '海豚-轻小型固定翼无人机（浅蓝）',
@@ -61,7 +61,7 @@ missions = {
         'forward_overlap': 0.8,
         'sideway_overlap': 0.5,
     },
-    '7号_[中期实验]_RGB7': {
+    '7号机_[中期实验]_RGB7': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '海豚-轻小型固定翼无人机（深蓝）',
@@ -71,7 +71,7 @@ missions = {
         'forward_overlap': 0.7,
         'sideway_overlap': 0.5,
     },
-    '8号_[中期实验]_RGB8': {
+    '8号机_[中期实验]_RGB8': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '滑翔机-轻小型固定翼无人机（紫色180）',
@@ -81,7 +81,7 @@ missions = {
         'forward_overlap': 0.75,
         'sideway_overlap': 0.5,
     },
-    '9号_[中期实验]_RGB9': {
+    '9号机_[中期实验]_RGB9': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '滑翔机-轻小型固定翼无人机（棕色）',
