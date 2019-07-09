@@ -414,7 +414,7 @@ class MissionManager():
             '翱翔5km圆': {
                 'polygon': geo_polygons.Polygons.aoxiang_fly_round,
                 'epsg': 'EPSG:4326',
-                'height_m': 100,
+                'height_m': 350,
             },
             '无限制': None,
         }
