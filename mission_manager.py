@@ -258,7 +258,7 @@ class Route_Simulate():
     def create_mission_widget_item(self):
         item = mission_widget.Mission_Widget_Item(
             rc=self.rc,
-            area_name=self.area_name,
+            area_name=self.name,
             parent=self.rc.mission_widget,
             type_='route_simulate',
             binding_object=self
