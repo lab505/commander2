@@ -258,7 +258,7 @@ class Route_Simulate():
     def create_mission_widget_item(self):
         item = mission_widget.Mission_Widget_Item(
             rc=self.rc,
-            area_name=self.area_name,
+            area_name=self.name,
             parent=self.rc.mission_widget,
             type_='route_simulate',
             binding_object=self
@@ -414,7 +414,7 @@ class MissionManager():
             '翱翔5km圆': {
                 'polygon': geo_polygons.Polygons.aoxiang_fly_round,
                 'epsg': 'EPSG:4326',
-                'height_m': 100,
+                'height_m': 350,
             },
             '无限制': None,
         }
