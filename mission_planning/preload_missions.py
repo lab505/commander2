@@ -29,7 +29,7 @@ missions = {
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
         'forward_overlap': 0.6,
-        'sideway_overlap': 0.5,
+        'sideway_overlap': 0.6,
     },
     '4号机_[中期实验]_RGB4R': {
         'aerocraft_num': 1,
@@ -39,7 +39,7 @@ missions = {
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
         'forward_overlap': 0.6,
-        'sideway_overlap': 0.5,
+        'sideway_overlap': 0.6,
     },
     '2号机_[中期实验]_RGB2': {
         'aerocraft_num': 1,
@@ -49,7 +49,7 @@ missions = {
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
         'forward_overlap': 0.6,
-        'sideway_overlap': 0.5,
+        'sideway_overlap': 0.6,
     },
     '6号机_[中期实验]_RGB6': {
         'aerocraft_num': 1,
@@ -68,7 +68,7 @@ missions = {
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
-        'forward_overlap': 0.7,
+        'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
     '8号机_[中期实验]_RGB8': {
