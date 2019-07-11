@@ -9,7 +9,7 @@ missions = {
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
         'forward_overlap': 0.,
-        'sideway_overlap': 0.3,
+        'sideway_overlap': 0.5,
     },
     '5号机_[中期实验]_双5T': {
         'aerocraft_num': 1,
@@ -58,7 +58,7 @@ missions = {
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
-        'forward_overlap': 0.8,
+        'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
     '7号机_[中期实验]_RGB7': {
@@ -78,7 +78,7 @@ missions = {
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
-        'forward_overlap': 0.75,
+        'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
     '9号机_[中期实验]_RGB9': {
@@ -88,7 +88,7 @@ missions = {
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
-        'forward_overlap': 0.75,
+        'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
     '3号_[中期实验]_RGB3(协同)': {
@@ -98,7 +98,7 @@ missions = {
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
-        'forward_overlap': 0.75,
+        'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
     '8号_[中期实验]_RGB8(协同)': {
@@ -108,7 +108,7 @@ missions = {
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
-        'forward_overlap': 0.75,
+        'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
    '[中期实验]_minisar': {
