@@ -6,10 +6,10 @@ cameras = {
         'name': 'minisar',
         'R_min_m': 800,
         'R_max_m': 6000.,
-        'R_suggest_m': 800.,
+        'R_suggest_m': 1350.,
         'f_m': -1.,
         'ground_resolution_m': .1,
-        'right_look_angle_degrees': -66.,
+        'right_look_angle_degrees': -75.,
         'range_beam_width_degrees': 13.,
     },
 
