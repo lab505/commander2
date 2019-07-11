@@ -39,7 +39,7 @@ aerocrafts = {
         'max_mileage_km': 140,
     },
     '猛牛-轻小型固定翼无人机（橙色）': {
-        'name': '猛牛-轻小型固定翼无人机（橙色）',
+        'name': '猛牛-轻小型固定翼无人机（深绿）',
         'fly_control_num':'UAV5',
         'max_v_km_h': 115.2,
         'suggest_v_km_h': 100.8,
@@ -48,17 +48,7 @@ aerocrafts = {
         'min_height_m': 100,
         'max_mileage_km': 150,
     },
-     '猛牛-轻小型固定翼无人机（黄色280）': {
-        'name': '猛牛-轻小型固定翼无人机（黄色）',
-        'fly_control_num':'UAV3',
-        'max_v_km_h': 115.2,
-        'suggest_v_km_h': 100.8,
-        'min_v_km_h': 64.8,
-        'max_height_m': 280,
-        'min_height_m': 100,
-        'max_mileage_km': 150,
-    },
-     '猛牛-轻小型固定翼无人机（黄色300）': {
+     '猛牛-轻小型固定翼无人机': {
         'name': '猛牛-轻小型固定翼无人机（黄色）',
         'fly_control_num':'UAV3',
         'max_v_km_h': 115.2,
@@ -68,8 +58,8 @@ aerocrafts = {
         'min_height_m': 100,
         'max_mileage_km': 150,
     },
-     '猛牛-轻小型固定翼无人机（浅绿）': {
-        'name': '猛牛-轻小型固定翼无人机（浅绿）',
+     '猛牛-轻小型固定翼无人机（绿色）': {
+        'name': '猛牛-轻小型固定翼无人机（绿色）',
         'fly_control_num':'UAV4',
         'max_v_km_h': 115.2,
         'suggest_v_km_h': 100.8,
@@ -78,8 +68,8 @@ aerocrafts = {
         'min_height_m': 100,
         'max_mileage_km': 150,
     },
-     '猛牛-轻小型固定翼无人机（深绿）': {
-        'name': '猛牛-轻小型固定翼无人机（深绿）',
+     '猛牛-轻小型固定翼无人机（橙色）': {
+        'name': '猛牛-轻小型固定翼无人机（橙色）',
         'fly_control_num':'UAV2',
         'max_v_km_h': 115.2,
         'suggest_v_km_h': 100.8,
@@ -98,8 +88,8 @@ aerocrafts = {
         'min_height_m': 100,
         'max_mileage_km': 150,
     },
-    '海豚-轻小型固定翼无人机（浅蓝）': {
-        'name': '海豚-轻小型固定翼无人机（浅蓝）',
+    '海豚-轻小型固定翼无人机（蓝色）': {
+        'name': '海豚-轻小型固定翼无人机（蓝色）',
         'fly_control_num':'UAV6',
         'max_v_km_h': 108,
         'suggest_v_km_h': 97.2,
@@ -124,7 +114,7 @@ aerocrafts = {
         'max_v_km_h': 90,
         'suggest_v_km_h': 64.8,
         'min_v_km_h': 43.2,
-        'max_height_m': 200,
+        'max_height_m': 180,
         'min_height_m': 50,
         'max_mileage_km': 150,
     },
