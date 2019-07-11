@@ -38,7 +38,7 @@ aerocrafts = {
         'min_height_m': 100,
         'max_mileage_km': 140,
     },
-    '猛牛-轻小型固定翼无人机（橙色）': {
+    '猛牛-轻小型固定翼无人机（深绿）': {
         'name': '猛牛-轻小型固定翼无人机（深绿）',
         'fly_control_num':'UAV5',
         'max_v_km_h': 115.2,
@@ -108,17 +108,7 @@ aerocrafts = {
         'min_height_m': 100,
         'max_mileage_km': 97.2,
     },
-    '滑翔机-轻小型固定翼无人机（紫色200）': {
-        'name': '滑翔机-轻小型固定翼无人机（紫色）',
-        'fly_control_num':'UAV8',
-        'max_v_km_h': 90,
-        'suggest_v_km_h': 72,
-        'min_v_km_h': 43.2,
-        'max_height_m': 180,
-        'min_height_m': 50,
-        'max_mileage_km': 150,
-    },
-    '滑翔机-轻小型固定翼无人机（紫色180）': {
+    '滑翔机-轻小型固定翼无人机': {
         'name': '滑翔机-轻小型固定翼无人机（紫色）',
         'fly_control_num':'UAV8',
         'max_v_km_h': 90,
