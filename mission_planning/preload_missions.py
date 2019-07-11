@@ -4,7 +4,7 @@ missions = {
     '1号机_[中期实验]_SAR1T': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '翱翔号（白色）',
+        'aerocraft': '翱翔号（白色UAV1）',
         'cameras': 'minisar',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
@@ -14,7 +14,7 @@ missions = {
     '5号机_[中期实验]_双5T': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '猛牛-轻小型固定翼无人机（深绿）',
+        'aerocraft': '猛牛-轻小型固定翼无人机（深绿UAV5）',
         'cameras': '轻型双波段相机(可见光)',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
@@ -24,7 +24,7 @@ missions = {
     '3号机_[中期实验]_RGB3': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '猛牛-轻小型固定翼无人机（黄色300）',
+        'aerocraft': '猛牛-轻小型固定翼无人机（黄色UAV3）',
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
@@ -34,7 +34,7 @@ missions = {
     '4号机_[中期实验]_RGB4R': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '猛牛-轻小型固定翼无人机（浅绿）',
+        'aerocraft': '猛牛-轻小型固定翼无人机（绿色UAV4）',
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
@@ -44,7 +44,7 @@ missions = {
     '2号机_[中期实验]_RGB2': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '猛牛-轻小型固定翼无人机（橙色）',
+        'aerocraft': '猛牛-轻小型固定翼无人机（橙色UAV2）',
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
@@ -54,7 +54,7 @@ missions = {
     '6号机_[中期实验]_RGB6': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '海豚-轻小型固定翼无人机（浅蓝）',
+        'aerocraft': '海豚-轻小型固定翼无人机（蓝色UAV6）',
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
@@ -64,7 +64,7 @@ missions = {
     '7号机_[中期实验]_RGB7': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '海豚-轻小型固定翼无人机（深蓝）',
+        'aerocraft': '海豚-轻小型固定翼无人机（深蓝UAV7）',
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
@@ -74,7 +74,7 @@ missions = {
     '8号机_[中期实验]_RGB8': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '滑翔机-轻小型固定翼无人机（紫色180）',
+        'aerocraft': '滑翔机-轻小型固定翼无人机（紫色UAV8）',
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
@@ -84,27 +84,7 @@ missions = {
     '9号机_[中期实验]_RGB9': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '滑翔机-轻小型固定翼无人机（棕色）',
-        'cameras': '光学相机（照片）',
-        'ground_resolution_m': 0.1,
-        'fly_direction': 'longest_edge',
-        'forward_overlap': 0.6,
-        'sideway_overlap': 0.5,
-    },
-    '3号_[中期实验]_RGB3(协同)': {
-        'aerocraft_num': 1,
-        'application': '中期实验',
-        'aerocraft': '猛牛-轻小型固定翼无人机（黄色280）',
-        'cameras': '光学相机（照片）',
-        'ground_resolution_m': 0.1,
-        'fly_direction': 'longest_edge',
-        'forward_overlap': 0.6,
-        'sideway_overlap': 0.5,
-    },
-    '8号_[中期实验]_RGB8(协同)': {
-        'aerocraft_num': 1,
-        'application': '中期实验',
-        'aerocraft': '滑翔机-轻小型固定翼无人机（紫色200）',
+        'aerocraft': '滑翔机-轻小型固定翼无人机（棕色UAV9）',
         'cameras': '光学相机（照片）',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
