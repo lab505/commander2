@@ -4,7 +4,7 @@ missions = {
     '1号机_[中期实验]_SAR1T': {
         'aerocraft_num': 1,
         'application': '中期实验',
-        'aerocraft': '翱翔号（白色UAV1）',
+        'aerocraft': '翱翔号（白色UAV12）',
         'cameras': 'minisar',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
