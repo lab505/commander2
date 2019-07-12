@@ -28,7 +28,7 @@ aerocrafts = {
         'min_height_m': 100,
         'max_mileage_km': 20,
     },
-    '翱翔号（白色UAV1）': {
+    '翱翔号（白色UAV12）': {
         'name': '翱翔号（白色UAV12）',
         'fly_control_num':'UAV12',
         'max_v_km_h': 126.0,
