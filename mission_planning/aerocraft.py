@@ -29,8 +29,8 @@ aerocrafts = {
         'max_mileage_km': 20,
     },
     '翱翔号（白色UAV1）': {
-        'name': '翱翔号（白色UAV1）',
-        'fly_control_num':'UAV1',
+        'name': '翱翔号（白色UAV12）',
+        'fly_control_num':'UAV12',
         'max_v_km_h': 126.0,
         'suggest_v_km_h': 100.,
         'min_v_km_h': 72.0,
@@ -149,8 +149,8 @@ aerocrafts = {
         'max_mileage_km': 5,
     },
     '飞艇': {
-        'name': '飞艇UAV11',
-        'fly_control_num':'UAV11',
+        'name': '飞艇UAV1',
+        'fly_control_num':'UAV1',
         'max_v_km_h': 80,
         'suggest_v_km_h': 35,
         'min_v_km_h': 0,
