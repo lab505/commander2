@@ -11,17 +11,17 @@ missions = {
         'forward_overlap': 0.,
         'sideway_overlap': 0.5,
     },
-    '测试任务1_5号机_双5T': {
+    '测试任务35_5号机_双5T': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '猛牛-轻小型固定翼无人机（深绿UAV5）',
         'cameras': '轻型双波段相机(可见光)',
         'ground_resolution_m': 0.1,
-        'fly_direction': 'longest_edge',
+        'fly_direction': 'longest_edge', 
         'forward_overlap': 0.,
         'sideway_overlap': 0.3,
     },
-    '测试任务5_3号机_RGB3': {
+    '3号机_RGB3': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '猛牛-轻小型固定翼无人机（黄色UAV3）',
@@ -41,7 +41,7 @@ missions = {
         'forward_overlap': 0.6,
         'sideway_overlap': 0.6,
     },
-    '测试任务3_2号机_RGB2TD': {
+    '测试任务23_2号机_RGB2TD': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '猛牛-轻小型固定翼无人机（橙色UAV2）',
@@ -49,9 +49,9 @@ missions = {
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
         'forward_overlap': 0.6,
-        'sideway_overlap': 0.6,
+        'sideway_overlap': 0.5,
     },
-    '测试任务6_6号机_RGB6': {
+    '测试任务6789_6号机_RGB6': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '海豚-轻小型固定翼无人机（蓝色UAV6）',
@@ -59,9 +59,9 @@ missions = {
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge',
         'forward_overlap': 0.6,
-        'sideway_overlap': 0.5,
+        'sideway_overlap': 0.6,
     },
-    '测试任务7_7号机_RGB7': {
+    '测试任务6789_7号机_RGB7': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '海豚-轻小型固定翼无人机（深蓝UAV7）',
@@ -71,7 +71,7 @@ missions = {
         'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
-    '测试任务8_8号机_RGB8': {
+    '测试任务6789_8号机_RGB8': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '滑翔机-轻小型固定翼无人机（紫色UAV8）',
@@ -81,7 +81,7 @@ missions = {
         'forward_overlap': 0.6,
         'sideway_overlap': 0.5,
     },
-    '测试任务9_9号机_RGB9': {
+    '测试任务6789_9号机_RGB9': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '滑翔机-轻小型固定翼无人机（棕色UAV9）',
