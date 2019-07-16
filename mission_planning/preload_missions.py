@@ -11,7 +11,7 @@ missions = {
         'forward_overlap': 0.,
         'sideway_overlap': 0.5,
     },
-    '测试任务35_5号机_双5T': {
+    '测试任务112_5号机_双5T': {
         'aerocraft_num': 1,
         'application': '中期实验',
         'aerocraft': '猛牛-轻小型固定翼无人机（深绿UAV5）',
