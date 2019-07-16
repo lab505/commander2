@@ -44,7 +44,7 @@ aerocrafts = {
         'max_v_km_h': 115.2,
         'suggest_v_km_h': 100.8,
         'min_v_km_h': 64.8,
-        'max_height_m': 200,
+        'max_height_m': 150,
         'min_height_m': 100,
         'max_mileage_km': 150,
     },
