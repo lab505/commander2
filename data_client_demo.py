@@ -88,7 +88,7 @@ def quickview_send(ip, port, folder,aircraft_type,sensor_type):
             is_color_img(img)
             img = img.resize((200,200))
             draw = ImageDraw.Draw(img)
-            font = ImageFont.truetype("songti.TTF",35)
+            font = ImageFont.truetype("songti.TTF",8)
             text_ = 'aircrafttype: %s\nsensor_type: %s' % (aircraft_type, sensor_type)
             text_color = (255, 0, 0)
             if not is_color_img(img):
@@ -107,7 +107,7 @@ def picproduct_send(ip, port, folder,aircraft_type,sensor_type):
             is_color_img(img)
             img = img.resize((1000,500))
             draw = ImageDraw.Draw(img)
-            font = ImageFont.truetype("songti.TTF",35)
+            font = ImageFont.truetype("songti.TTF",8)
             text_ = 'aircrafttype: %s\nsensor_type: %s' % (aircraft_type, sensor_type)
             text_color = (255, 0, 0)
             if not is_color_img(img):
@@ -152,8 +152,8 @@ def main():
     #threads.append(t2)
     t3 = threading.Thread(target=quickview_send, args=(ip, port, 'pics/realdata/多光谱', '固定翼', '多光谱',))
     threads.append(t3)
-    t4 = threading.Thread(target=quickview_send, args=(ip, port, 'pics/realdata/测绘相机快视图', '猛牛', '测绘相机快视图',))
-    threads.append(t4)
+    #t4 = threading.Thread(target=quickview_send, args=(ip, port, 'pics/realdata/测绘相机快视图', '猛牛', '测绘相机快视图',))
+    #threads.append(t4)
     t5 = threading.Thread(target=quickview_send, args=(ip, port, 'pics/realdata/高光谱', '猛牛', '高光谱',))
     threads.append(t5)
     t6 = threading.Thread(target=video_send, args=(ip, port, 'pics/realdata/双波段视频吊舱_可见光', '地理所xxx', '双波段视频吊舱_可见光',))
@@ -163,8 +163,8 @@ def main():
     t8 = threading.Thread(target=video_send, args=(ip, port, 'pics/realdata/光学相机视频', '北航猛牛2', '光学相机视频',))
     threads.append(t8)
     
-    t9 = threading.Thread(target=picproduct_send, args=(ip, port, 'pics/realdata/快视遥感产品/', '猛牛', '测绘相机快视图',))
-    threads.append(t9)#快视产品显示
+    #t9 = threading.Thread(target=picproduct_send, args=(ip, port, 'pics/realdata/快视遥感产品/', '猛牛', '测绘相机快视图',))
+    #threads.append(t9)#快视产品显示
     
     for t in threads:
         t.setDaemon(True)
