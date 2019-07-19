@@ -28,8 +28,8 @@ missions = {
         'cameras': '轻型双波段相机(可见光)',
         'ground_resolution_m': 0.1,
         'fly_direction': 'longest_edge', 
-        'forward_overlap': 0.6,
-        'sideway_overlap': 0.6,
+        'forward_overlap': 0.,
+        'sideway_overlap': 0.3,
     },
     '3号机_RGB3': {
         'aerocraft_num': 1,
