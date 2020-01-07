@@ -195,6 +195,7 @@ def mission_planning(
         res.append({
             # 重要信息
             'area_name':area_name,
+            'plane_number':need_aerocraft_num,
             'mission_num': i + 1,
             'mission_id':str(uuid.uuid1()),
             'mission_name': mission_name,
